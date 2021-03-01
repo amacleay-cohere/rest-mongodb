@@ -8,6 +8,8 @@ class Product {
     String name
     Double price
 
+    ProductLine productLine
+
     //tag::constraints[]
     static constraints = {
         name blank: false

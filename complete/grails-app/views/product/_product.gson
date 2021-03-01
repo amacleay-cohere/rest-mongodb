@@ -9,4 +9,5 @@ json {
     id product.id
     name product.name
     price "${currency.symbol}${product.price}"
+    productLine g.render(product.productLine)
 }
